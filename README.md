@@ -1,67 +1,76 @@
- # Cybersecurity Portfolio
-Welcome to my Cybersecurity Portfolio! This repository showcases various projects, reports, and labs I've completed during my journey in cybersecurity. The contents of this repository are organized into different folders, each representing a unique aspect of my cybersecurity skills and knowledge.
+# Cybersecurity Portfolio
 
-Table of Contents
-Cybersecurity Incident Reports
-File Permissions and System Administration
-Incident Handler Journal
-Presentations and Reports
-Risk Management
-Screenshots and Visuals
-Security Tools and Analysis
-SQL Query Labs
-Cybersecurity Incident Reports
-This folder contains detailed incident reports documenting various cybersecurity incidents, analyses, and the steps taken to mitigate threats. Each report demonstrates my ability to respond to and analyze security events.
+Hi, I'm **Jamie** — welcome to my cybersecurity portfolio. This repository is a curated record of the projects, labs, and reports I've completed while building my skills as a security practitioner. Each project lives in its own folder with a short write-up that explains the goal, the tools I used, and what I learned.
 
-Contents:
-05242024_Cybersecurity Incident Report.docx
-Cybersecurity-incident-report_Template.docx
-File Permissions and System Administration
-In this section, you'll find my work related to system administration and file permissions, particularly in a Linux environment. These exercises helped me gain a deeper understanding of access control and system management.
+If you're a recruiter or hiring manager, the [Project Index](#project-index) below is the fastest way to get a feel for my work.
 
-Contents:
-07132024_File-permissions-in-Linux.docx
-Incident Handler Journal
-The Incident Handler Journal is a comprehensive log of various activities, findings, and reflections throughout my learning process. It includes investigations using the 5 W's approach, tools used, and lessons learned.
+---
 
-Contents:
-05_24_2024_Cybersecurity Incident Report.docx
-08092024_Incident-handler-s-journal-.docx
-Presentations and Reports
-This folder contains various presentations and reports I've created, showcasing my ability to communicate complex cybersecurity concepts in a clear and concise manner.
+## About Me
 
-Contents:
-08062024Accounting-exercise.xlsx
-(Add any additional presentations/reports here)
-Risk Management
-In this section, you'll find documentation related to risk management, including risk registers and compliance checklists. These exercises demonstrate my understanding of identifying, assessing, and mitigating risks within an organization.
+- **Focus areas:** Incident response, risk management, security analysis, SIEM, Linux, SQL
+- **Goal:** Land a role in a SOC, GRC, or security analyst function where I can apply and grow these skills
+- **Currently learning:** *(update this — e.g. Splunk, Python for security, AWS security)*
 
-Contents:
-06202024_Applying-the-NIST-CSF-.docx
-08052024_Risk-register.docx
-08062024_NIST-SP-800-30-Rev.-1.docx
-Risk-register-exemplar.docx
-Screenshots and Visuals
-This folder contains various screenshots and visuals related to my work. These images illustrate the processes, configurations, and analyses I conducted during my cybersecurity projects.
+## Contact
 
-Contents:
-Various screenshots and visuals (12 total)
-Security Tools and Analysis
-In this folder, you’ll find examples of my work with various security tools and analysis methods. It includes exercises related to network hardening, incident report analysis, and tool-specific exercises.
+- **Email:** *your.email@example.com*
+- **LinkedIn:** *linkedin.com/in/your-handle*
+- **GitHub:** [JamieNTech](https://github.com/JamieNTech)
 
-Contents:
-06192024_Activity_Analysis of network hardening_Security-risk-assessment-report.docx
-06192024_Security-risk-assessment-report-exemplar.docx
-06202024_Incident Report Analysis-Example.docx
-08072024_Parking-lot-USB-exercise.docx
-The-Exemplar-Explained---Cybersecurity-Incident-Report_-Network-Traffic-Analysis.docx
-SQL Query Labs
-This section includes labs and exercises where I practiced SQL queries, demonstrating my skills in database management and querying for cybersecurity purposes.
+---
 
-Contents:
-08052024-Data-leak-worksheet.docx
-08062024Activity-Template_-Access-control-worksheet.docx
-07.18.2024 Apply filters to SQL queries Lab.docx
-(Include any additional SQL-related files here)
-About
-This repository is a collection of my cybersecurity-related work. It reflects my journey, learning process, and the skills I've developed along the way. Please feel free to explore the files, and do not hesitate to reach out if you have any questions or would like to know more about my work.
+## Skills
+
+| Domain | Tools & Concepts |
+|---|---|
+| Incident Response | Incident reports, IR playbooks, 5 W's investigation, post-incident review |
+| Risk Management | NIST CSF, NIST SP 800-30, risk registers, compliance checklists |
+| Network Security | Network hardening, traffic analysis, security risk assessment |
+| Linux & System Admin | File permissions, access control, command line |
+| SQL & Data | SQL filtering, joins, querying for security investigations |
+| Security Tools | SIEM workflows, IDS/IPS concepts, log analysis |
+
+---
+
+## Project Index
+
+Projects are grouped by category. Click a folder to open the full write-up.
+
+### Incident Response
+- [`incident-response/`](./incident-response/) — incident reports, IR journals, and analysis exercises
+
+### Risk Management & Governance
+- [`risk-management/`](./risk-management/) — NIST CSF application, risk registers, control assessments
+
+### Network & Security Tools
+- [`security-tools-and-analysis/`](./security-tools-and-analysis/) — network hardening, traffic analysis, USB-drop exercise, tool walkthroughs
+
+### Linux & System Administration
+- [`linux-and-sysadmin/`](./linux-and-sysadmin/) — file permissions, user management, hardening
+
+### SQL for Security
+- [`sql-labs/`](./sql-labs/) — SQL filtering, access-control queries, data-leak investigation
+
+### Presentations & Reports
+- [`presentations-and-reports/`](./presentations-and-reports/) — slide decks, write-ups, and longer-form reports
+
+### Screenshots & Visuals
+- [`screenshots/`](./screenshots/) — supporting images referenced from the project write-ups
+
+---
+
+## How to Add a New Project
+
+1. Pick the category folder that fits (or create a new one).
+2. Inside it, create a new folder named `YYYY-MM-DD-short-project-name` (e.g. `2026-05-19-phishing-triage-lab`).
+3. Copy [`_template/README.md`](./_template/README.md) into your new folder and fill it in.
+4. Drop any artifacts (reports, screenshots, scripts, configs) alongside the README.
+5. Add a one-line entry under the relevant category in this main README.
+6. Commit with a clear message: `git commit -m "Add phishing triage lab"` and push.
+
+That's it — keep each project self-contained and the index up to date.
+
+---
+
+*Thanks for stopping by. If you'd like to talk about an opportunity, please reach out via the contact info above.*
